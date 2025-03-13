@@ -1,0 +1,86 @@
+
+{
+    "bot-name": "MANU-MD",
+    "description": "MANU-MD made for people on Sri Lanka & Other Countries...✨🇱🇰🌏❤",
+    "logo": "https://i.ibb.co/XZFdhy0/IMG-20250102-WA0065.jpg",
+    "keywords": ["bot"],
+    "documentation-link": "https://manul-ofc-web-tau.vercel.app/",
+    "owner-verification":"manulwijethilaka@gmail.com",
+  
+    "env": {
+      "SESSION_ID": {
+        "description": "Put your SESSION_ID here. Make sure it starts with Manu-MD& or get session id from here, https://manul-ofc-web-tau.vercel.app/",
+        "value":"",
+        "required": true
+        
+      },
+      "PREFIX": {
+        "description": "Bot command prefix, (e.g, . , ! @ etc",
+        "value":".",
+        "required": true
+        
+      },
+      "AUTO_READ_STATUS": {
+        "description": "Bot will all status, To Enable put true and to disable put false (e.g, true)",
+        "value":"true",
+        "required": false
+        
+      },
+      "MODE": {
+        "description": "Bot mode can be public, private, inbox or groups in small letters (e.g, public)",
+        "value":"public",
+        "required": true
+        
+      },
+      "OWNER_NUMBER": {
+        "description": "OWNER_NUMBER with country code (e.g, 9230723xxxxx)",
+        "value":"923072380xxxx",
+        "required": true
+        
+      },
+      "READ_CMD": {
+        "description": "Bot will read of msgs if it is enabled, To Enable put true and to disable put false (e.g, true)",
+        "value":"false",
+        "required": false
+        
+      },
+  
+      "ANTI_DELETE": {
+        "description": "if person who delete message or media after shiw it and to disable put false (e.g, true)",
+        "value":"false",
+        "required": false
+        
+      },
+      "AUTO_REACT": {
+        "description": "Bot will react to the msgs, To Enable put true and to disable put false (e.g, true)",
+        "value":"false",
+        "required": false
+        
+      },
+      "ANTI_BAD": {
+        "description": "Bot delete the message from group if any bad word detected, To Enable put true and to disable put false (e.g, true)",
+        "value":"false",
+        "required": false
+        
+      },
+      "ANTI_BOT": {
+        "description": "Bot delete or kick bots from group, To Enable put true and to disable put false (e.g, true)",
+        "value":"false",
+        "required": false
+        
+      },
+      "ANTI_LINK": {
+        "description": "Bot delete or kick links sender from group, To Enable put true and to disable put false (e.g, true)",
+        "value":"false",
+        "required": false
+        
+      },
+      "ALWAYS_ONLINE": {
+        "description": "Keep your WhatsApp always online put true to activate (e.g, true)",
+        "value":"false",
+        "required": false
+        
+      }
+    }
+  
+  }
